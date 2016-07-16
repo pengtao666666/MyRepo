@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号 ：" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/t1"
+        android:layout_toRightOf="@id/t1"
+        android:paddingLeft="30dp" 
+        android:background="@null"/>
+    
+    
+     <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码：" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/e1"/>
+    
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/t2"
+        android:layout_toRightOf="@id/t2"
+        android:paddingLeft="30dp" 
+        android:background="@null"/>
+    
+    
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认密码：" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/e2"/>
+    
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/t3"
+        android:layout_toRightOf="@id/t3"
+        android:paddingLeft="30dp" 
+        android:background="@null"/>
+    
+     <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机：" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/e3"/>
+    
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/t4"
+        android:layout_toRightOf="@id/t4"
+        android:paddingLeft="30dp" 
+        android:background="@null"/>
+    
+    
+    <Button 
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t4"
+        android:layout_marginTop="20dp"
+        android:text="登录"
+        android:layout_marginLeft="30dp"/>
+    
+ <Button 
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t4"
+        android:layout_marginTop="20dp"
+        android:text="注册"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"/>
+</RelativeLayout>
