@@ -16,7 +16,7 @@ public class UserInfo {
 	public static UserInfo getInstance() {
 		return userInstance;
 	}
-
+//这是测试
 	public static String getToken(Context context) {
 		return context
 				.getSharedPreferences("project_xml", Context.MODE_PRIVATE)
